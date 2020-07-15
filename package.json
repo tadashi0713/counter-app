@@ -21,7 +21,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "uitest-step1-chrome": "testcafe chrome tests/step1",
+    "uitest-step1-headless-chrome": "testcafe chrome:headless tests/step1",
+    "uitest-step1-safari": "testcafe safari tests/step1",
+    "uitest-step1-ie": "testcafe ie tests/step1"
   },
   "eslintConfig": {
     "extends": "react-app"
