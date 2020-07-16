@@ -27,7 +27,8 @@
     "uitest-step1-safari": "testcafe safari tests/step1",
     "uitest-step1-ie": "testcafe ie tests/step1",
     "uitest-step2-chrome": "testcafe chrome tests/step2",
-    "uitest-step2-chrome-parallel": "testcafe -c 3 chrome tests/step2"
+    "uitest-step2-chrome-parallel": "testcafe -c 3 chrome tests/step2",
+    "uitest-step3-chrome": "testcafe chrome tests/step3"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,6 +40,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "testcafe": "^1.8.8"
+    "testcafe": "^1.8.8",
+    "testcafe-react-selectors": "^4.0.0"
   }
 }
