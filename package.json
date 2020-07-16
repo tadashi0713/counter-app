@@ -26,7 +26,8 @@
     "uitest-step1-headless-chrome": "testcafe chrome:headless tests/step1",
     "uitest-step1-safari": "testcafe safari tests/step1",
     "uitest-step1-ie": "testcafe ie tests/step1",
-    "uitest-step2-chrome": "testcafe chrome tests/step2"
+    "uitest-step2-chrome": "testcafe chrome tests/step2",
+    "uitest-step2-chrome-parallel": "testcafe -c 3 chrome tests/step2"
   },
   "eslintConfig": {
     "extends": "react-app"
